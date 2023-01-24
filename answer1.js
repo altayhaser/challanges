@@ -4,7 +4,7 @@ function capFirstLetters(sentences) {
     //console.log(sentences);
     let stringArray = sentences.split(" ");
 
-    for(let = 0; i < stringArray.lenght; i++){
+    for(let i = 0; i < stringArray.lenght; i++){
         stringArray[i] = stringArray[i].charAt(0).toUpperCase()
         + stringArray[i].slice(1);
         //hort
