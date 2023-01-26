@@ -44,15 +44,15 @@ while (counter <= 10) {
 }
 console.log(counter);
 
-let number = [2, 3, 5, 6, 7, 8];
-function question(arr) {
-let sum = 0;
-for(i = 0; i < arr.length < i++) {
-    sum += arr[i]
-}
-return sum;
-}
-console.log(question(arr));
+// let number = [2, 3, 5, 6, 7, 8];
+// function question(arr) {
+// let sum = 0;
+// for(i = 0; i < arr.length < i++) {
+//     sum += arr[i]
+// }
+// return sum;
+// }
+// console.log(question(arr));
 
 let arr2 = [1, 2, 3, 90, 44];
 function findLargest(params) {
