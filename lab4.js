@@ -151,7 +151,5 @@ I'd like two scoops of vanilla ice cream in a cone with peanuts.
 */
 
 
-let x =  1 + 5 + " bottles of milk"?;
-    console.log(x);
 
 

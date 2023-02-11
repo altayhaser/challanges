@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #121212;
+}
+
+nav > ul {
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav > ul > div {
+    display: flex;
+
+}
+
+.nav-login li a{
+    color: grey;
+}
+
+
+signup-btn{
+    background-color: #006EFE;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #FFFF;
+}
+
+
+    

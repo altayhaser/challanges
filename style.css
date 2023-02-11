@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+background: rgb(54, 88, 151);
+
+display: flex;
+height:100vh;
+justify-content: center;
+align-items: center;
+
+
+
+.container{
+
+    text-align: center;
+    
+}
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+   
+    text-align: center;
+  }
+
+input {
+    
+}
+  
+
+
+/* 
+
+description of the code
+
+*: all elements
+margin: 0; : remove the default margin
+padding: 0; : remove the default padding
+box-sizing: border-box; : make the padding and border included in the width and height of the element
+
+*/
