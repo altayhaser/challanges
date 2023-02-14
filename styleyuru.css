@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header > h1 {
+
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 32px;
+    margin: auto auto 0 auto;
+}
+
+.listofhead {
+
+    background-color: grey;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 5px 100px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+#arone  {
+
+    text-align: center;
+    width: 100%;
+ 
+}
+
+#arone a {
+    
+    color:rgb(255, 94, 0)
+}
+
+#arone h1 {
+
+    font-size: 3rem;
+    
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+
+  #image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 4px;
+    top: 0;
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+
+
+  #headerone {
+    z-index: 100;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    left: 15px;
+    top: 35px;
+
+  }
+
+  #text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    font-weight: 40px;
+    left: 15px;
+    top: 250px;
+  }
+
+  #buttonone {
+
+    background-color: grey;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    
+  }
+
+   
