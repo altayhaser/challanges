@@ -7,7 +7,7 @@
 
 body{
 
-background: rgb(54, 88, 151);
+background: rgb(0, 0, 0);
 
 display: flex;
 height:100vh;
@@ -23,24 +23,30 @@ button{
     height: 48px;
     width: 160px;
 
-    font-family: "Roboto Black";
+    font-family: "Roboto";
     font-size: 18px;
     color: white;
 
     letter-spacing: 1.5px;
-    letter-spacing: 6px;
+   
     word-spacing: 2px;
 
-    background-color: orange;
-    border: 1px solid darkorange;
-    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid darkorange;
+    
 
-    transition: transform 0.8s ease,box-shadow 0.8 ease, border-radius 0.8s ease, box-shadow 0.8s ease, border-radius 1s ease;
+    /* transition: transform 0.8s ease,box-shadow 0.8s ease, box-shadow 0.8s ease; */
+
+    transition: transform 0.3s ease, box-shadow 0.3s;
+
 }
 
 button:hover{
-    border-radius: 12px;
-    box-shadow: 0 10px 20px -8px darkorange;
-    transform: translateY(-0.10em);
+    
+    box-shadow: 0 10px 20px -8px rgb(217, 255, 0);
+    border: 3px solid rgb(217, 255, 0);
+    transform: translateY(-0.40em);
+    transition-timing-function: ease;
+    
 
 }
